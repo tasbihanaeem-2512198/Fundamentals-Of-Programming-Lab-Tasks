@@ -1,3 +1,5 @@
+/*Find both roots of the quadratic equation using the formula, after taking a, b, c as
+inputs using C++.*/
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -30,4 +32,5 @@ else{
 	cout<<"Root 2="<<realPart<<"-"<<imagPart<<"i"<<endl;
 }
 return 0;
+
 }

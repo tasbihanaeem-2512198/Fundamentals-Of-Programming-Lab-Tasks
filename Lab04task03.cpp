@@ -1,3 +1,6 @@
+/*Write a C program to calculate dot product of 2 vectors (A,B) where:  A = (5,2,-3), B = (-4,9,2)  Angle between A and B is 53 degrees
+Implement it using this formula:*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -13,4 +16,5 @@ int main(){
 	dot_product=magnitudeofvector_A*magnitudeofvector_B*cos(angle_rad);
 	cout<<"Dot product is "<<dot_product<<endl;
 	return 0;
+
 }

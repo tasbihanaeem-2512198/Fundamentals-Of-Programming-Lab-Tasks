@@ -1,3 +1,7 @@
+/*Write a C program to find the euclidean distance between 2 points (x1, x2) and (y1, 
+y2).*/
+
+
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -14,4 +18,5 @@ int main(){
 	int euclidean_distance=sqrt(pow(x2-x1,2))+sqrt(pow(y2-y1,2));
 	cout<<"The euclidean distance is "<<euclidean_distance;
 	return 0;
+
 }

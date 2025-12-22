@@ -1,3 +1,7 @@
+/*Calculate the volume of a cone using FLOAT data type for all values and output the
+final answer up to 3 decimal places exactly using C++.*/
+
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -10,4 +14,5 @@ int main(){
 	float volume=1/3.0*pie*radius*radius*height;
 	cout<<"The volume of a cone is "<<fixed<<setprecision(3)<<volume<<endl;
 	return 0;
+
 }

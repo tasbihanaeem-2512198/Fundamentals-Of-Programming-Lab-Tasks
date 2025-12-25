@@ -1,3 +1,7 @@
+/*Write a C program to input a character from the user and check whether the 
+given character is a small alphabet, capital alphabet, digit or special character, 
+using if else.*/
+
 #include <iostream>
 using namespace std;
 
@@ -18,3 +22,4 @@ int main() {
 
     return 0;
 }
+

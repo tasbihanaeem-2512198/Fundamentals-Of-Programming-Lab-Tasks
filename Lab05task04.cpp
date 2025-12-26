@@ -1,3 +1,14 @@
+/*Write a program in which user enters his NTS and F.Sc marks and your program 
+will help student in selection of university. Based on these marks Student will be 
+allocated a seat at different department of different university.  Oxford University 
+IT: Above 70% in Fsc. and 70 % in NTS
+Electronics: Above 70% in Fsc. and 60 % in NTS
+Telecommunication Above 70% in Fsc. and 50 % in NTS
+ MIT
+IT: 70% - 60 % in Fsc. and 50 % in NTS
+Chemical: 59% – 50 % in Fsc. and 50 % in NTS
+Computer: Above 40% and below 50 % in Fsc. and 50 % in NTS*/
+
 #include <iostream>
 using namespace std;
 int main(){
@@ -35,3 +46,4 @@ int main(){
 
     return 0;
 }
+

@@ -57,6 +57,7 @@ int main(){
 		
 		default:
 			cout<<"Invalid Coffee type"<<endl;
+		    return 0;
 			
 	}
 	if(cup_size=='D'|| cup_size=='d'){
@@ -68,3 +69,4 @@ int main(){
 	return 0;
 
 }
+

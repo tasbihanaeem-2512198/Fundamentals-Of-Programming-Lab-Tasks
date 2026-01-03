@@ -32,10 +32,7 @@ void processArray(int arr[],int size){
 int main(){
 	int arr[]={4,8,1,15,6};
 	processArray(arr,5);
-
-	
-	
-	
 	return 0;
 
 }
+
